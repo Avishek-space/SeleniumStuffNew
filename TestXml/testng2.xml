@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Avishek">
+	<groups>
+		<run>
+			<include name="runThisOnly"></include>
+		</run>
+	</groups>
+  <test thread-count="1" name="SeleniumCompleteFramework">
+    <classes>
+      <class name="AvishekLearning.EndToEndTest"/>
+      <class name="AvishekLearning.ErrorValidation"/>
+    </classes>
+  </test> <!-- SeleniumCompleteFramework -->
+</suite> <!-- Avishek -->
